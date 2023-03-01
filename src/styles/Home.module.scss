@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-family: Fascinate Inline;
+        font-weight: 400;
+        background-size: 100%;
+        -webkit-text-fill-color: #68e4d6b8;
+        filter: drop-shadow(2px 2px #0085a3);
+        font-size: 60px;
+        text-align: center;
+        margin: 20px;
+    }
+    button {
+        height: 40px;
+        margin: 20px 0;
+        padding: 0 40px;
+    }
+}
+
+.wrapper {
+    padding: 4em;
+    background: papayawhip;
+}
+.start {
+    max-width: 200px;
+}
+
+.score {
+    font-size: 2rem;
+    margin: 0;
+}
+
